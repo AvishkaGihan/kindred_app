@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# These files are text and should be normalized (converted to OS-specific line endings)
+*.dart text
+*.yaml text
+*.yml text
+*.json text
+*.md text
+*.txt text
+
+# These files should always have LF line endings regardless of OS
+*.lock binary
+.metadata binary
